@@ -8,20 +8,27 @@ Developers frequently have to create interfaces that allow non-developers to eas
   * [Acceptance Criteria](#acceptance-criteria)
   * [Application Invoked](#application-invoked)
   * [Database schema](#database-schema)
+    * [Table Describe](#table-describe)
 
-## [Walk through Video](#table-of-contents)
+# [Walk through Video](#table-of-contents)
 https://vimeo.com/753642221
 
-## [Git Repo](#table-of-contents)
+# [Git Repo](#table-of-contents)
 ```
-   https://github.com/kabirfaisal1/NoteTaker.git
+  https://github.com/kabirfaisal1/EmployeeTracker.git
 ```
-## [Dependency](#table-of-contents)
-```
-    1. node.js (npm install -g npm) on your system
-    2. npm i inquirer@8.2.4
-    3. mysql
-```
+# [Dependency](#table-of-contents)
+  ## System
+  ```
+      node.js
+  ```
+  ## On project
+  ```
+      npm i inquirer@8.2.4 
+  ```
+  ```
+      npm i mysql
+  ```
 
 # [User Story](#table-of-contents)
 ```
@@ -51,12 +58,26 @@ WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database
 ```
 ## [Application Invoked](#table-of-contents)
+1. create database and tables
 ```
-node [your node app]
+    mysql -u root -p
+
+      source <filePath>/schema.sql
+```
+2. insert data to database
+```
+  source <filePath>/seed.sql
+```
+3. run the app
+```
+ cd <projectFile> 
+ node [your node app].js
 ```
 
 # [Database schema](#table-of-contents)
-![Image at homepage.](./images/schema.png)
+![Image at schema.](./images/schema.png)
+## [Table Describe](#table-of-contents)
+![Image at tableDescribe.](./images/tableDescribe.png)
 
 ## Node and NPM Doc
 https://nodejs.org/en/download/package-manager/
