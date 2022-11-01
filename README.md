@@ -29,6 +29,9 @@ https://vimeo.com/765925185
   ```
       npm i mysql
   ```
+  ```
+      npm i console.table
+  ```
 
 # [User Story](#table-of-contents)
 ```
