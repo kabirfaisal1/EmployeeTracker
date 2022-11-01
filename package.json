@@ -9,9 +9,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-
-  },
   "dependencies": {
     "console.table": "^0.10.0",
     "inquirer": "^7.0.0",
