@@ -1,18 +1,16 @@
 {
-  "name": "EmployeeTracker",
+  "name": "EMPLOYEE-TRACKER",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "console.table": "^0.10.0",
-    "inquirer": "^7.0.0",
-    "mysql": "^2.17.1"
-  },
-  "devDependencies": {}
+    "inquirer": "^8.2.4",
+    "mysql": "^2.18.1"
+  }
 }
